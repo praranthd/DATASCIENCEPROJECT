@@ -1,0 +1,48 @@
+2026-10-14 18:31:54,366 | INFO | student_performance_project | Starting project structure creation
+2026-10-14 18:31:54,366 | INFO | student_performance_project | Created directory: data\raw
+2026-10-14 18:31:54,374 | INFO | student_performance_project | Created directory: data\interim
+2026-10-14 18:31:54,377 | INFO | student_performance_project | Created directory: data\processed
+2026-10-14 18:31:54,381 | INFO | student_performance_project | Created directory: artifacts\models
+2026-10-14 18:31:54,383 | INFO | student_performance_project | Created directory: artifacts\metrics
+2026-10-14 18:31:54,384 | INFO | student_performance_project | Directory already exists: logs
+2026-10-14 18:31:54,387 | INFO | student_performance_project | Created directory: notebooks
+2026-10-14 18:31:54,393 | INFO | student_performance_project | Created file: src\__init__.py
+2026-10-14 18:31:54,401 | INFO | student_performance_project | Created file: src\components\__init__.py
+2026-10-14 18:31:54,405 | INFO | student_performance_project | Created file: src\components\data_ingestion.py
+2026-10-14 18:31:54,407 | INFO | student_performance_project | Created file: src\components\data_validation.py
+2026-10-14 18:31:54,411 | INFO | student_performance_project | Created file: src\components\data_transformation.py
+2026-10-14 18:31:54,413 | INFO | student_performance_project | Created file: src\components\model_trainer.py
+2026-10-14 18:31:54,417 | INFO | student_performance_project | Created file: src\components\model_evaluation.py
+2026-10-14 18:31:54,421 | INFO | student_performance_project | Created file: src\configuration\__init__.py
+2026-10-14 18:31:54,424 | INFO | student_performance_project | Created file: src\data_access\__init__.py
+2026-10-14 18:31:54,428 | INFO | student_performance_project | Created file: src\data_access\student_performance_data.py
+2026-10-14 18:31:54,433 | INFO | student_performance_project | Created file: src\cloud_storage\__init__.py
+2026-10-14 18:31:54,436 | INFO | student_performance_project | Created file: src\cloud_storage\aws_storage.py
+2026-10-14 18:31:54,438 | INFO | student_performance_project | Created file: src\entity\__init__.py
+2026-10-14 18:31:54,441 | INFO | student_performance_project | Created file: src\entity\config_entity.py
+2026-10-14 18:31:54,444 | INFO | student_performance_project | Created file: src\entity\artifact_entity.py
+2026-10-14 18:31:54,446 | INFO | student_performance_project | Created file: src\constants\__init__.py
+2026-10-14 18:31:54,451 | INFO | student_performance_project | Created file: src\utils\__init__.py
+2026-10-14 18:31:54,453 | INFO | student_performance_project | Created file: src\utils\logger.py
+2026-10-14 18:31:54,456 | INFO | student_performance_project | Created file: src\utils\main_utils.py
+2026-10-14 18:31:54,458 | INFO | student_performance_project | Created file: src\pipeline\__init__.py
+2026-10-14 18:31:54,467 | INFO | student_performance_project | Created file: src\pipeline\training_pipeline.py
+2026-10-14 18:31:54,470 | INFO | student_performance_project | Created file: src\pipeline\prediction_pipeline.py
+2026-10-14 18:31:54,513 | INFO | student_performance_project | Created file: src\api\__init__.py
+2026-10-14 18:31:54,528 | INFO | student_performance_project | Created file: src\api\main.py
+2026-10-14 18:31:54,532 | INFO | student_performance_project | Created file: app.py
+2026-10-14 18:31:54,538 | INFO | student_performance_project | Created file: config\model.yaml
+2026-10-14 18:31:54,541 | INFO | student_performance_project | Created file: config\schema.yaml
+2026-10-14 18:31:54,544 | INFO | student_performance_project | Created file: tests\__init__.py
+2026-10-14 18:31:54,547 | INFO | student_performance_project | Created file: tests\test_data_ingestion.py
+2026-10-14 18:31:54,564 | INFO | student_performance_project | Created file: tests\test_model.py
+2026-10-14 18:31:54,567 | INFO | student_performance_project | Created file: tests\test_api.py
+2026-10-14 18:31:54,570 | INFO | student_performance_project | Created file: requirements.txt
+2026-10-14 18:31:54,572 | INFO | student_performance_project | Created file: Dockerfile
+2026-10-14 18:31:54,573 | INFO | student_performance_project | Created file: .dockerignore
+2026-10-14 18:31:54,577 | INFO | student_performance_project | Created file: .gitignore
+2026-10-14 18:31:54,581 | INFO | student_performance_project | File already contains data: README.md
+2026-10-14 18:31:54,584 | INFO | student_performance_project | Created file: pyproject.toml
+2026-10-14 18:31:54,587 | INFO | student_performance_project | Created file: dvc.yaml
+2026-10-14 18:31:54,590 | INFO | student_performance_project | Created file: params.yaml
+2026-10-14 18:31:54,590 | INFO | student_performance_project | Project structure creation completed successfully
